@@ -288,11 +288,11 @@
         <div class="container is-max-desktop content">
           <h2 class="title">Overview </h2>
           <div class="content has-text-justified">
-            The goal of this workshop is to build communication between researchers who study human modeling and robotics, both of which can be considered as physical agents that interact with the world. 
+            The goal of this workshop is to build communication among researchers who study human modeling and robotics, both of which can be considered as physical agents that interact with the world. 
             In recent years, computer vision researchers have focused on creating digital twins of humans in virtual environments that behave like real humans, and at the same time roboticists have worked on building physical agents capable of interacting with the real world. 
-            We believe that the progress of one field can greatly benefit the other. 
+            We believe that the progress in one field can greatly benefit the other. 
             On one hand, virtual humans can be considered as a special form of a robotic agent.
-            On the other hand, robots can learn manipulation and locomotion from human demonstrations, including from simulated humans. Through the proposed workshop, we aim to bring these two fields together and explore common challenges - such as contact modeling, data scarcity, and the role of foundation models, etc. We hope that our workshop will provide a necessary medium and fertile grounds for inspiring new research directions and solutions in this space. 
+            On the other hand, robots can learn manipulation and locomotion from human demonstrations, including from simulated humans. Through the proposed workshop, we aim to bring these two fields together and explore common challenges - such as contact modeling, motion prediction, overcoming data paucity, the role of large-scale models, etc. We hope that our workshop will provide a suitable platforms for inspiring new research directions and solutions in this space. 
           </div>
         </div>
       </section>
@@ -327,13 +327,13 @@
                   <li><b>Long-Horizon Interactions. </b> Current HOI understanding is typically limited to one task such as sitting which takes a couple of seconds. However, humans continuously interact with the environment, and completing an activity may take a few minutes to an hour. During the process, many dependencies among sub-tasks may exist. How do we understand the long-horizon interactions from videos?  How can we deal with the challenges in long-horizon planning in robotics? </li>
                   <li><b>Human Demonstration and Imitation Learning. </b> Human interactions can serve as the demonstration data which the robots learn from.  Where are the current boundaries of imitation learning methods? How does human data compare to its alternative such as simulation, Internet data, or robot real-world data? </li>
                   <li><b>Real-time Human Reconstruction and Teleoperation. </b> Instead of learning from direct human demonstration, the alternative solution could be that a user teleop a robot to collect data. How are these methods compared to their competitors? </li>
-                  <li><b>Foundation Models for Humans and Robots. </b> Can we imagine an ideal foundation model for either humans or robots?  How can we repurpose it to equip the great reasoning ability in LLM to human/robot interactions that require low-level spatial understanding?  How much additional data do we need? </li>
+                  <li><b>Foundation Models for Humans and Robots. </b> Can we imagine an ideal foundation model for either humans or robots?  How can we repurpose it to equip the great reasoning ability in LLM to human/robot interactions that require low-level spatial understanding?  How much additional data and what form of data do we need? </li>
                   <li><b>Agent-Agnostic Representation and Embodiment Gap. </b> Humans and robots undergo different embodiment. To overcome the embodiment gap, one could use abstract representations that are agnostic to agents. There has been some exploratory work that proposes affordance maps, direct pixels, and abstract 2D/3D tracks, etc.  Alternatively, one can also apply retargeting techniques from one to another. We aim to discuss the merits and drawbacks of various tasks. </li>
                   <li><b>In Search for Data. </b>
                 We aim to understand the available paradigms for data collection and discuss their potentials. What are the available data choices and what are their limitations? What is the ideal data recipe? 
                 What problems are bottlenecked by the scale of data?  
                 % What are axes in terms of data scaling where do we lag behind and why is it? 
-                How do we decide which type of data to use, human demonstrations, simulation, or real-world robot data? What is the optimal way to combine both if all of them are available? How much robot or human data do we need (in the long run)?</li>
+                How do we decide which type of data to use, human videos, simulation, or real-world robot data? What is the optimal way to combine both if all of them are available? How much real robot or human data do we need (in the long run)?</li>
                 </ul>
 
               </div>
@@ -474,7 +474,8 @@
                       </div>
                     </div>
                     <div class="content">
-                      Jitendra Malik is a Professor at UC Berkeley. He is one of the most distinguished computer scientists in the world who has made significant contributions in the fields of Computer Vision, Biological Vision, Machine Learning, and Robotics.
+                      Jitendra Malik is a Professor at UC Berkeley. 
+<!-- 			    He is one of the most distinguished computer scientists in the world who has made significant contributions in the fields of Computer Vision, Biological Vision, Machine Learning, and Robotics. -->
                     </div>
                   </div>
                 </div>
@@ -496,7 +497,8 @@
                       </div>
                     </div>
                     <div class="content">
-                      Dorsa Sadigh is an Associate Professor of computer science at Stanford University. Her research interests lie in the intersection of robotics, machine learning, and human-AI interaction. Specifically, she is interested in developing algorithms that learn robot policies from various sources of data and human feedback and can seamlessly interact and coordinate with humans. 
+                      Dorsa Sadigh is an Associate Professor of Computer Science at Stanford University. 
+<!-- 			    Her research interests lie in the intersection of robotics, machine learning, and human-AI interaction. Specifically, she is interested in developing algorithms that learn robot policies from various sources of data and human feedback and can seamlessly interact and coordinate with humans.  -->
                     </div>
                   </div>
                 </div>
@@ -518,7 +520,9 @@
                       </div>
                     </div>
                     <div class="content">
-                      Joseph Sivic is a Distinguished Researcher at the Czech Institute of Informatics, Robotics and Cybernetics at the Czech Technical University where he leads the Intelligent Machine Perception project and the ELLIS Unit Prague. His research focuses on computer vision, developing intelligent systems capable of understanding complex visual data with minimal supervision.
+                      Joseph Sivic is a Distinguished Researcher at the Czech Institute of Informatics, Robotics and Cybernetics at the Czech Technical University. 
+<!-- 			    where he leads the Intelligent Machine Perception project and the ELLIS Unit Prague.  -->
+<!-- 			    His research focuses on computer vision, developing intelligent systems capable of understanding complex visual data with minimal supervision. -->
                     </div>
                   </div>
                 </div>
@@ -540,7 +544,8 @@
                       </div>
                     </div>
                     <div class="content">
-                      Karen C. Liu is a Professor at Stanford University. Her research interests are in computer graphics and robotics, including physics-based animation, character animation, optimal control, reinforcement learning, and computational.
+                      Karen C. Liu is a Professor at Stanford University. 
+<!-- 			    Her research interests are in computer graphics and robotics, including physics-based animation, character animation, optimal control, reinforcement learning, and computational. -->
                     </div>
                   </div>
                 </div>
@@ -562,7 +567,8 @@
                       </div>
                     </div>
                     <div class="content">
-                      Hanbyul Joo is an Assistant Professor at Seoul National University (SNU) in the Department of Computer Science and Engineering. He won Samsung Scholarship and the CVPR Best Student Paper Award in 2018. His research aims to endow machines and robots with the ability to perceive and understand human behaviors in 3D. His goal is to build an AI system that can behave like humans in new environments and can interact with humans using a broad channel of nonverbal signals (kinesic signals or body languages). 
+                      Hanbyul Joo is an Assistant Professor at Seoul National University (SNU) in the Department of Computer Science and Engineering. 
+<!-- 			    He won Samsung Scholarship and the CVPR Best Student Paper Award in 2018. His research aims to endow machines and robots with the ability to perceive and understand human behaviors in 3D. His goal is to build an AI system that can behave like humans in new environments and can interact with humans using a broad channel of nonverbal signals (kinesic signals or body languages).  -->
                     </div>
                   </div>
                 </div>
@@ -608,7 +614,8 @@
                       </div>
                     </div>
                     <div class="content">
-                      Michael Black is an Honorary professor at the University of Tübingen and a founding director at the Max Planck Institute for Intelligent Systems. He is a recipient of the PAMI Distinguished Researcher Award, the 2022 and 2010 Koenderink Prize, the 2013 Helmholtz Prize, and the 2020 Longuet-Higgins Prize. He is a member of two national academies (Germany and Sweden). He has co-founded two companies: Body Labs and Meshcapade.
+                      Michael Black is an Honorary professor at the University of Tübingen and a founding director at the Max Planck Institute for Intelligent Systems. 
+<!-- 			    He is a recipient of the PAMI Distinguished Researcher Award, the 2022 and 2010 Koenderink Prize, the 2013 Helmholtz Prize, and the 2020 Longuet-Higgins Prize. He is a member of two national academies (Germany and Sweden). He has co-founded two companies: Body Labs and Meshcapade. -->
                     </div>
                   </div>
                 </div>
